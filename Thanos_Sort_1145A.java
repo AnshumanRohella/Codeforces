@@ -26,8 +26,8 @@ public class Thanos_Sort_1145A {
         int left = getMaxSorted(arr, start, mid);
         int right = getMaxSorted(arr, mid + 1, end);
 
-        if((left == (mid-start)+1) && (right == (end-(mid+1)+1) && (arr[start]<=arr[mid+1]))){
-            return Integer.max((end-start)+1, Integer.max(left, right));
+        if((left == (mid-start)+1) && (right == (end-(mid+1)+1) && (arr[mid]<=arr[mid+1]))){
+            return (end-start)+1;
         } else {
             return Integer.max(left,right);
 
