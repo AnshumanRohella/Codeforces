@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-public class Thanos_Sort_1145A {
+public class CF1145A {
     public static void main(String... args) {
         Scanner sc = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
         int size = sc.nextInt();
